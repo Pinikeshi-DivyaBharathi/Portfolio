@@ -1,0 +1,42 @@
+#coding
+{
+    padding-top:50px;
+}
+#coding *li
+{
+    font-weight: bold;
+}
+.btn-outline-success:hover {
+    background-color: lightgreen !important;
+}
+  
+.image-container {
+  max-width: 100%; /* This ensures the image won't exceed the container's width */
+  height: auto; 
+  border-radius: 50%;   /* This maintains the aspect ratio of the image */
+}
+h2{
+  color:darkcyan;
+  text-align: center;
+  font-family: serif;
+}
+h3{
+  color:darkseagreen;
+  font-family: sans-serif;
+}
+a:link,a:visited,a:active
+{
+  text-decoration: none;
+  color:darkcyan;
+  
+}
+a:hover
+{
+  color:darkseagreen;
+  text-decoration: none;
+}
+.btn:hover
+{
+  outline :none !important; /* !important ensures that these styles will override any other conflicting styles */
+  background-color: transparent !important;
+}
